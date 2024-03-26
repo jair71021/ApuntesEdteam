@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- Elemnto de bloque son todos los elemento que capaces de reservar todo el espacio 
-        
-    
-    -->
-    <span>Hola</span>
-    <span> Edteam</span>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            div{
+                background-color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+            <!-- Elemnto de bloque son todos los elemento que capaces de reservar todo el espacio 
+                que hay en una pagina web
+            
+            -->
+            <span>Hola</span>
+            <!-- + El span es un elemeto de linea-->
+            <span> Edteam</span>
+
+            <p>Hola</p>
+            <p>Edteam</p>
+            <!-- *  la p es un elmento de bloque  
+                * los elmento de bloque reservan todo el espacio dispaonible -->
+
+            <!-- ¡para escribir de la forma correcta  los elemento tiene que ser de la sig. manera-->
+            <p>Hola <span>Edteam</span></p>
+
+            <!-- + Los elemnto de bloque son 
+                    * Encabezado: h1,h2,h3,h4,h5,h6
+                    * Parrafo : p
+                    * Elemento de seccion
+                    * Blockquote Es para una cita tu quieres citar una cita o una frase literales de un libro
+                    * pre Se usa para preforrmar texto que significa que  tal como esta escrito el codigo tal cual me lo muestra en la pagins 
+                    * div tambien es una etiqueta de bloque que te ayuda a agrupar etiqueta 
+                -->
+            <blockquote>La mejor escuela es ITMA II</blockquote>
+            <pre>
+            Me gusta cuando callas porque esta como ausente
+            y me mira desde lejo y mi voz no te toca
+                            pareces que los ojos se te hubiera volado 
+                            y parace que un beso te cerrara la boca
+                </pre
+            >
+            <pre>
+                    <code>
+                        <!-- Para utilizar codigo se necesita saber la entidades-->
+                        &lt;h1 &gt; hola edteam &lt;/h1 &gt;
+                    </code>
+                </pre>
+            <div>
+                <pre>
+                    <!-- + Code sirve para realizar o escribir codigo en html-->
+                    <code>
+                        if( 5 >2 ){
+                            alert("hola mundo")
+                        }
+                    </code>
+                </pre>
+            </div>
+            <!-- #  Semantica significa que la etiqueta tiene un significado-->
+            
+            <div>
+                &lt;div &gt; noes una etiqueta semantica&lt;/div &gt;
+            </div>
+                
+    </body>
 </html>
