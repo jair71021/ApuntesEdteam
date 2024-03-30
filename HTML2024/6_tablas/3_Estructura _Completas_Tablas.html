@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid rgb(207, 0, 0);
+            padding: 0.25em  .5em;
+        }
+        tfoot{
+            background: greenyellow;
+        }
+        thead{
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Estructura completa</h2>
+    <!--
+        #Estructura completa de una tabla 
+            <table>
+                <caption> 
+                    + El caption es la descripcion de la tabla 
+                </caption>
+                    
+                    <th> 
+                        + th  son las columnas cabecera (cabeceras) de cada columna.
+                        <td></td>
+                        <td></td>
+                        
+                    </th> 
+                    <tbody>
+                        + tbody  se utiliza para agrupar filas que no son cabezera o pie.(cuerpo)
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                    </tbody>         
+                    <tfoot>
+                        + tfoot de pies             
+                            <td> </td>
+                            <td> </td>
+                    </tfoot>         
+                
+                                
+            </table>
+    -->
+        <h2>Mi horario de clase</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td>JavaScript</td>
+                    <td>Photoshop</td>
+                    <td>PHP</td>
+                </tr>
+                
+            <tr>
+                <td>JavaScript</td>
+                <td>NodeJs</td>
+                <td>CSS</td>
+                <td>HTML</td>
+                <td>Adobe XD</td>
+            </tr>
+                
+            </tbody>
+            
+            <tfoot>
+                    
+                <tr>
+                    <td>Total de cursos</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>7</td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+</html>

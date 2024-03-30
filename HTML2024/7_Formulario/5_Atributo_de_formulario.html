@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Atributo de formulario</h2>
+    <!-- AAtributo de formulario
+        + checked para selecionar un checkbox o radio por default
+        + selected  para marcar un option por defecto es igual que checked pero en un select 
+        + required que es cuando quieres que un campo sea obligatorio y si no lo llena no se puede enviar el formulario 
+        + readonly  solo se puede leer el valor no se pueden editarlo
+        + autocomplet   si es off desactivamos la funcionalidad del autocomplete
+    -->
+    <form action="/HTML2024/7_Formulario/1_recido.html">
+        <fieldset>
+            <legend>Que quieres estudiar </legend>
+            <label>
+                <input type="checkbox" name="curso" checked>
+                HTML
+            </label>
+            <label>
+                <input type="checkbox" name="curso">
+                CSS
+            </label>
+            <label>
+                <input type="checkbox" name="curso">
+                JavaScript
+            </label>
+            <label>
+                <input type="checkbox" name="curso">
+                PHP
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Cual es su sexo </legend>
+            <label>
+                <input type="radio" name="sexo" required>
+                Hombre
+            </label>
+            <label>
+                <input type="radio" name="sexo">
+                Mujer
+            </label>
+        </fieldset>
+        <div>
+            <select name="pais" id="">
+                <optgroup label="Sudamerica">
+                    <option value="Argentina" >Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Venezuela" selected>Venezuela</option>
+                </optgroup>
+                <optgroup label="Norteamerica">
+                    <option value="Mexico">Mexico</option>
+                    <option value="USA">USA</option>
+                </optgroup>
+            </select>        
+        </div>
+        <br>
+        <div>
+            <label for="comment">Deja tu comentario</label>
+            <textarea name="" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

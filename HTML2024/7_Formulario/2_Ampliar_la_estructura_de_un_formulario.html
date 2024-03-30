@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 10px;
+        
+        }
+        fieldset{
+            margin-bottom: 20px
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario Completos</h1>
+    
+    <form action="/HTML2024/7_Formulario/1_recido.html">
+        <!-- + label sirven para nombrar los campo 
+            # El atributo for nos permite conectar el label con el input o campo al cual corresponde por lo tanto el for se le ponde el  nombre del id
+            ¡ El id es un identificador unico de cualquier  elemento en HTML 
+            ? Focus se llama cuando tu haces click en el campoe
+            + El atributo value se usa para poner un valor preterminado 
+            + con value ya le das un valor por default un valor incial a este input
+            
+            +-->
+        <div>
+            <label for="username">Usuario</label>
+            <input placeholder="Usuario" id="username" value="Jair">
+        </div>
+        <div>
+            <label for="password">
+                Contraseña
+                <input placeholder="Contraseña" >
+            </label>
+        </div>
+        <!-- +2 modos de enviar formulario:
+            #  1) Enviarlos Button
+            # 2) un input de tipo  submit
+
+        -->
+        <!-- <button>Enviar</button> -->
+        <input type="submit" value="Ingresar">
+    </form>
+    <hr>
+    <h2>Agrupar Campo</h2>
+    <!-- +A grupar campo  para eso utilizamos la etiqueta 
+        *Fieldset  -->
+    <form action="/HTML2024/7_Formulario/1_recido.html">
+        <fieldset>
+            <!-- +Legend sirve para poner un nombre -->
+            <legend>Tus datos</legend>
+        <div>
+            <label for="username">Usuario</label>
+            <input placeholder="Usuario" id="username" value="Jair">
+        </div>
+        <div>
+            <label for="password">
+                Contraseña
+                <input placeholder="Contraseña" >
+            </label>
+        </div>
+        </fieldset>
+        <fieldset>
+            <!-- +Legend sirve para poner un nombre -->
+            <legend>Tus Favorito</legend>
+        <div>
+            <label for="music">Musica Favorita</label>
+            <input placeholder="Musica Favorita" id="music" value="Musica">
+        </div>
+        <div>
+            <label>
+                Plato Favorito
+                <input placeholder="Plato Favorito" >
+            </label>
+        </div>
+        </fieldset>
+        <input type="submit" value="Ingresar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tipo de Input</h1>
+    <form action="/HTML2024/7_Formulario/4_Tipos_De_input.html">
+        <!-- + Checkboz son para selecionar varias opciones -->
+        <fieldset>
+            <legend>Que quieres estudiar </legend>
+            <label>
+                <input type="checkbox" name="curso">
+                HTML
+            </label>
+            <label>
+                <input type="checkbox" name="curso">
+                CSS
+            </label>
+            <label>
+                <input type="checkbox" name="curso">
+                JavaScript
+            </label>
+            <label>
+                <input type="checkbox" name="curso">
+                PHP
+            </label>
+        </fieldset>
+        <!-- + Radio son para  elegir solo una opcion 
+        + Si comparte el mismo atributo name solo puedes selecionar una opcion
+        + y Si no comparten el mismo nombre puedes selecionar los dos
+        -->
+        <fieldset>
+            <legend>Cual es su sexo </legend>
+            <label>
+                <input type="radio" name="sexo">
+                Hombre
+            </label>
+            <label>
+                <input type="radio" name="sexo">
+                Mujer
+            </label>
+        </fieldset>
+        <br>
+        <!-- SElect  es como un select en htm l se usa para hacer una lista-->
+        <div>
+            <select name="pais" id="">
+                <!-- # Value es indicar el valor que se va enviar cuando se envie el formulario -->
+
+                <!-- +la etiqueta optgruop sirve para agrupar varias opciones -->
+                <optgroup label="Sudamerica">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Venezuela">Venezuela</option>
+                </optgroup>
+                <optgroup label="Norteamerica">
+                    <option value="Mexico">Mexico</option>
+                    <option value="USA">USA</option>
+                </optgroup>
+            </select>        
+        </div>
+        <br>
+        <div>
+            
+            <!--  ° Textarea sirve para mostrar bastante contenido -->
+            <label for="comment">Deja tu comentario</label>
+            <textarea name="" id="comment" cols="30" rows="10"></textarea>
+
+        </div>
+    </form>
+</body>
+</html>
