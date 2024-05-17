@@ -1,0 +1,53 @@
+/*
+    + La web nacio en 1991 con HTML 
+    + CSS nacio en 1996 
+    +La primera veriom fue en 1996 se llama recomendacion 
+    + segunda recomendacion fue en 1998
+    + tercera recomentacion fue en 2011
+    ? la primera y segunda son monolitos ( es un gran pieza donde esta todo metido)
+    + css3 se repartio en modulo ya que monolitos crecio tanto que no se podian manejar.
+    ! el css3 no existe sino que es una estrategia de marketing
+    +css3 es cuando se agregan los modulos como: 
+    + grid
+    + flexbox
+    + bordes
+    + sombra
+    + animacion
+
+
+
+    *Los modulos se divide en 3 etapa (espeficicacion = documentacion)
+    + Borrador
+    + borrador de la recomendacion
+    + recomendacion 
+
+    Implemetacion 
+
+
+
+
+
+
+
+- La web nace en el 91 y CSS en el 96.
+- Hubo varios intentos de crear un lenguaje de estilos
+- El primer navegador en implementar CSS fue IE3
+
+## Módulos CSS
+
++ Los módulos son las distintas funcionalidades de CSS y la serie de documentaciones que se desarrollan se llaman especificaciones y pasan por las siguientes etapas
+
+*   - Borrador
+*             - **FPWD**: First public working draft
+*              - **WD**: Working Draft
+?    - Redomendaciones candidatas
+        - **CR**: Candidate Recomendation
+        - **CRD**: Candidate Recomendation Draft.
+        - **PR**: Proposed Recommendation
+!    - Recomendación
+        - **REC**: Recommendation (fase final de la especificación)
+        - **SPSD**: Superseded recommendation (una recomendación reemplazada por una nueva recomendación).
++ - Especificaciones de CSS: https://www.w3.org/Style/CSS/specs.en.html
++ - El futuro de CSS: https://www.w3.org/Style/CSS/Planet/
++ - Retos de CSS: https://www.w3.org/Style/CSS20/challenges.html
+*/

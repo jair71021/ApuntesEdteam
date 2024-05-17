@@ -1,0 +1,57 @@
+/*
+# 1. Método recomendado (estilos externos)
+
+```html
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- El atributo type es opcional pero rel es obligatorio -->
+</head>
+```
+
+# 2. Estilos internos
+
+```html
+<!-- Dentro de cualquier elemento HTML 
+(suele hacerse en head) se agrega <style-->
+<style>
+ body {
+   background: red;
+ }
+</style>
+```
+
+# 3. Estilos en línea
+
+```html
+<!-- Dentro de cualquier elemento HTML 
+se agrega el atributo style y se escribe el css-->
+<p style="color:red">Bienvenidos a EDteam</p>
+```
+
+# 4. Datos importantes
+
+1. Los estilos CSS siempre son globales, no hay forma de que tenga un scope. 
+2. Para conseguir un scope se deben usar frameworks de frontend como React, Angular, Vue o Svelte (o web components).
+    
+    <aside>
+    💡 Otra forma de aplicar scope es usar variables
+    
+    </aside>
+    
+3. La directiva `@apply` es solo de CSS y no se puede usar dentro de HTML. Se usa para llamar a un archivo externo de CSS desde otro archivo de CSS. Pero el inconveniente es que estos archivos adicionales se cargan luego de que se haya cargado el archivo principal CSS.
+    
+    ```css
+    @import url("header.css");
+    ```
+    
+4. Los navegadores tienen su propio CSS predeterminado que podemos ver en las dev tools del navegador.
+
+*/
+
+
+
+
+
+/*
+
+*/
